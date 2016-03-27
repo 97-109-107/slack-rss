@@ -11,6 +11,10 @@
     "HISTORY_LENGTH" : {
       "description": "The number of messages to scan in the channel, 1000 max",
       "required":true
+    },
+    "EMBEDLY_API_KEY" : {
+      "description": "Your API key for Embeldy's extract service (http://docs.embed.ly)",
+      "required":true
     }
   }
 }
